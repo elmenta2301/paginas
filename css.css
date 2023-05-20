@@ -1,0 +1,84 @@
+@media (min-width: 1024px){
+.prim{
+  potition:  relative;
+  text-align: left;
+  align-content: flex-end;
+  z-index: 100;
+  width: 100%;
+  background: blue;
+  color: white;
+  display: flex;
+
+}
+.prim:hover{
+  background: red;
+}
+.lis{
+  color: white;
+}
+
+.nav{
+  background: #0399d4 !important; /* for non-css3 browsers */
+  filter:  progid:DXImageTransform.Microsoft.gradient  
+  startColorstr='#04acec', endColorstr='#0186ba'; /* for IE */
+  background: -webkit-gradient linear, left top, left bottom, from  #04acec, to #0186ba !important; /* for webkit browsers */
+  background: -moz-linear-gradient top,  #04acec,  #0186ba !important; /* for firefox 3.6+ */
+
+  color: #fff !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+.img1{
+  padding: 100px;
+  margin-left: 600px;
+  margin-top: 80px;
+  height: 500px;
+  width: 500px;
+
+}
+}
+@media(max-width: 1023px){
+
+  .prim{
+  potition:  relative;
+  text-align: left;
+  align-content: flex-end;
+  z-index: 100;
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  text-decoration: none;
+}
+.prim:hover{
+  background: blue;
+}
+.lis{
+  color: white;
+  text-decoration-color: white;
+}
+}
+
+
+@media (max-width:  767px){
+
+  .prim{
+  potition:  relative;
+  text-align: left;
+  align-content: flex-end;
+  z-index: 100;
+  width: 100%;
+  background: gray;
+  color: black;
+  display: flex;
+
+}
+.prim:hover{
+  background: yellow;
+}
+.lis{
+  color: white;
+}
+}
+        
